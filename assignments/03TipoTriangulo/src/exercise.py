@@ -6,13 +6,13 @@ def main():
     lado3 = int(input("Ingresa la medida del lado 3: "))
     
     
-    if (lado1 == 0):
+    if (lado1 <= 0):
         print('NO ES TRIANGULO')
         
-    elif (lado2 == 0):
+    elif (lado2 <= 0):
         print('NO ES TRIANGULO')
     
-    elif(lado3 == 0):
+    elif(lado3 <= 0):
         print('NO ES TRIANGULO')
         
     else:
@@ -45,3 +45,6 @@ def main():
             elif(lado2 == lado3):
                 print ('ES UN TRIANGULO EQUILATERO')
             
+
+if __name__ == '__main__':
+    main()
