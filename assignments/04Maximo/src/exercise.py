@@ -13,7 +13,6 @@ def main():
         
     else:
         print(num3)
-
 if __name__ == '__main__':
     main()
 

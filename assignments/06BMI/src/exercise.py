@@ -34,6 +34,5 @@ def main():
     
         else:
             print('Revisa tus datos, alguno de ellos es erróneo.')
-    
 if __name__ == '__main__':
     main()

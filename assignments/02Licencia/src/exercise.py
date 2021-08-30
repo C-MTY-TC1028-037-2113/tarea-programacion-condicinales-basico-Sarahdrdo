@@ -19,8 +19,7 @@ def main():
         print('Respuesta incorrecta')
     
     elif edad < 18:
-        print('No cumples requisitos') 
-        
+        print('No cumples requisitos')        
 if __name__ == '__main__':
     main()
 
